@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    background-color: rgb(32, 31, 31);
+    color: white;
+}
+
+body.tema-claro {
+    background-color: white;
+    color: black;
+}
+
+.divtudo {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: inherit;
+    color: inherit;
+}
+
+.div2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.JV {
+    margin: 0;
+    color: rgb(223, 223, 120);
+}
+
+body.tema-claro .JV {
+    color: #9b59b6;
+}
+
+.div2 a {
+    color: rgb(223, 223, 120);
+    text-decoration: none;
+}
+
+body.tema-claro .div2 a {
+    color: #9b59b6;
+}
+
+.btn1 {
+    padding: 8px 12px;
+    border: 1px solid #9b59b6;
+    border-radius: 6px;
+    background-color: white;
+    color: #9b59b6;
+    cursor: pointer;
+}
+
+body.tema-claro .btn1 {
+    border-color: rgb(223, 223, 120);
+    background-color: black;
+    color: rgb(223, 223, 120);
+}
+
+.div1 {
+    flex: 1;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.titulo1 {
+    font-size: 60px;
+    color: rgb(223, 223, 120);
+}
+
+body.tema-claro .titulo1 {
+    color: #9b59b6;
+}
+
+.p2 {
+    font-size: 25px;
+    color: gray;
+    text-align: center;
+}
+
+body.tema-claro .p2 {
+    color: black;
+}
